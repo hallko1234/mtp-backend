@@ -10,3 +10,11 @@ shutil        # Dateioperationen (z. B. Speicherplatzprüfung)
 platform      # Systeminformationen (OS, Python-Version)
 socket        # Netzwerk- und Hostname-Überprüfung
 importlib     # Prüft installierte Module für den Health-Check
+psutil        # Systemressourcen-Monitoring (CPU, RAM, Speicher)
+tenacity      # Automatische Wiederholungen für fehlgeschlagene API-Aufrufe
+dotenv        # Laden von Umgebungsvariablen aus einer .env-Datei
+httpx         # Erweiterter HTTP-Client für asynchrone Anfragen
+watchdog      # Echtzeit-Überwachung von Dateiänderungen
+loguru        # Verbesserte Logging-Funktionalität
+rich          # Schöne CLI-Ausgaben für Debugging und Logs
+starlette     # Hintergrund-Tasks & Websocket-Unterstützung
