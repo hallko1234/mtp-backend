@@ -29,4 +29,3 @@ def home():
 
 # Datenbank initialisieren
 create_db()
-#hh
