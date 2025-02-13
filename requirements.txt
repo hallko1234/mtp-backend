@@ -1,0 +1,12 @@
+fastapi       # Web-Framework für das Backend
+uvicorn       # ASGI-Server für FastAPI
+sqlalchemy    # ORM für die Datenbankverwaltung
+bcrypt        # Passwort-Hashing für sichere Authentifizierung
+pyjwt         # JSON Web Tokens für sichere Benutzer-Authentifizierung
+pillow        # Bildverarbeitung (JPEG/PNG-Komprimierung)
+pypdf2        # PDF-Verarbeitung (Optimierung, Extraktion)
+subprocess    # Shell-Befehle für Video-Komprimierung mit FFmpeg
+shutil        # Dateioperationen (z. B. Speicherplatzprüfung)
+platform      # Systeminformationen (OS, Python-Version)
+socket        # Netzwerk- und Hostname-Überprüfung
+importlib     # Prüft installierte Module für den Health-Check
