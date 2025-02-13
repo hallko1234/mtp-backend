@@ -1,4 +1,7 @@
+# models.py - Datenbank-Modelle
+
 from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy.orm import relationship
 from database import Base
 
 class User(Base):
@@ -14,6 +17,7 @@ class File(Base):
     filename = Column(String)
     folder = Column(String)
     owner_id = Column(Integer, ForeignKey("users.id"))
+    owner = relationship("User")
 
 class ShareLink(Base):
     __tablename__ = "share_links"
